@@ -2,7 +2,7 @@
 The program uses pythons facial recognition libraries to build an easy implementation of the system. The repository have 2 files.
 
 # buildingFacesDataset.py 
-This python script builds the dataset for the facial recognition system. It creates a bounding box around the persons face in the picture/video and svae the newly created face in the dataset folder. The image is save with a user defined id which will be the tag for that image.
+This python script builds the dataset for the facial recognition system. It creates a bounding box around the persons face in the picture/video and save the newly created face in the dataset folder. The image is save with a user defined id which will be the tag for that image.
  
  
  NOTE - Create a folder called dataset in your working directory before running this program
