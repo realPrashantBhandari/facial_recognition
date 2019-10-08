@@ -5,7 +5,7 @@ import os
 cap = cv2.VideoCapture(0)
 
 detector = dlib.get_frontal_face_detector()
-ids = input("Enter New User ID(random 6 digit number): ")
+ids = input("Enter New User: ")
 total = 1
 while True:
     _,frame = cap.read()
