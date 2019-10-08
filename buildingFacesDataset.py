@@ -27,6 +27,7 @@ while True:
 
     cv2.waitKey(1)
     if total == 10:
+        ## create a folder called datset in your working directory
         cv2.imwrite("dataset/"+str(ids)+".jpg",frame[y1-20:y2+30,x1-20:x2+30])
         break
       
